@@ -1,4 +1,5 @@
 const path = require('path');
+// const webpack = require('webpack');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyPlugin = require('copy-webpack-plugin');
 
@@ -86,7 +87,7 @@ module.exports = (env) => ({
     },
     devServer: {
         static: {
-            directory: path.join(__dirname, 'assets/build'),
+            directory: path.join(__dirname, 'assets'),
         },
         hot: true,
         compress: true,
@@ -95,7 +96,7 @@ module.exports = (env) => ({
         proxy: [
             {
                 context: () => true, // Proxy svi zahtevi
-                target: 'https://testtheme.test',
+                target: 'https://tfld-leonardo.test', // Adjust for your local dev environment
                 secure: false, // Ako koristite samoopskrbljeni SSL certifikat
                 changeOrigin: true,
             }

@@ -5,7 +5,7 @@
  *
  * @link https://www.advancedcustomfields.com/resources/acf_register_block_type/
  *
- * @package Leonardo Vite
+ * @package TFLD Leonardo
  */
 
 
@@ -30,7 +30,7 @@ function register_acf_blocks_init()
 //             'title'             => __('Testimonial'),
 //             'description'       => __('A custom testimonial block.'),
 //             'render_template'   => 'blocks/testimonial/testimonial.php',
-//             'category'          => 'leonardo-vite',
+//             'category'          => 'leonardo',
 //             'icon'              => 'testimonial',
 //             'keywords'          => array('testimonial'),
 //             'supports'          => array(
@@ -45,7 +45,7 @@ function register_acf_blocks_init()
 //             'title'             => __('Team Member'),
 //             'description'       => __('Display a team member in a card'),
 //             'render_template'   => '/blocks/team-member/team-member.php',
-//             'category'          => 'leonardo-vite',
+//             'category'          => 'leonardo',
 //             'icon'              => 'admin-users',
 //             'keywords'          => array('team', 'member'),
 //             'supports'          => array(

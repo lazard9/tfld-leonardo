@@ -10,7 +10,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Leonardo Vite
+ * @package TFLD Leonardo
  */
 
 get_header();

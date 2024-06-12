@@ -8,7 +8,7 @@
     "keywords": ["team", "member"],
     "acf": {
         "mode": "preview",
-        "renderTemplate": "team-member.php"
+        "renderTemplate": "blocks/team-member/team-member.php"
     },
     "supports": {
         "anchor": true

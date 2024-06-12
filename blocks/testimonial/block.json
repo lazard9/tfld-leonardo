@@ -8,7 +8,7 @@
     "keywords": ["testimonial"],
     "acf": {
         "mode": "preview",
-        "renderTemplate": "testimonial.php"
+        "renderTemplate": "blocks/team-member/testimonial.php"
     },
     "supports": {
         "anchor": true

@@ -199,6 +199,11 @@ require get_template_directory() . '/blocks/register-blocks.php';
 require get_template_directory() . '/blocks/register-category.php';
 
 /**
+ * WP_ENVIRONMENT.
+ */
+require get_template_directory() . '/wp-env.php';
+
+/**
  * TFLD Framework begins here
  * 
  */
