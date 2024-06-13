@@ -1,4 +1,4 @@
-# Child Theme Name: TFLD Framework
+# Custom Theme Name: TFLD Framework
 
 ## Table of Contents
 - [Description](#description)
@@ -28,10 +28,10 @@ This theme is used for testing and custom development, as well as creating Guten
 - Utilize webpack for asset bundling and Tailwind CSS for styling.
 
 ## Development Scripts
-- npm run prod: Build assets for production.
-- npm run dev: Build assets for development.
-- npm run clean: Clean build files.
+- npm run prod: Build minified assets for production.
+- npm run dev: Build unminified assets for development withd sourcemap.
 - npm run serve: Start webpack development server.
+- npm run clean: Clean build files.
 
 ## Credits
 This plugin was developed by [lazard9](https://github.com/lazard9).

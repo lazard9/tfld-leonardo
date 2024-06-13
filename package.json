@@ -9,8 +9,8 @@
   "scripts": {
     "prod": "NODE_ENV=production webpack --mode production",
     "dev": "NODE_ENV=development webpack --mode development",
-    "clean": "rm -rf assets/build/*",
-    "serve": "NODE_ENV=development webpack serve --config webpack.config.js --mode development"
+    "serve": "NODE_ENV=development webpack serve --config webpack.config.js",
+    "clean": "rm -rf assets/build/*"
   },
   "repository": {
     "type": "git",
